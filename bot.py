@@ -24,7 +24,7 @@ async def on_voice_state_update(member, before, after):
             text_channel = discord.utils.get(member.guild.text_channels, name="froci")
             if text_channel:
                 await text_channel.send(
-                    f"🔔 **{member.display_name}** ha avviato una chiamata vocale in **{voice_channel.name}**! Unisciti pezzo di merda"
+                    f"🔔 **{member.display_name}** ha avviato una chiamata vocale in **{voice_channel.name}**! Unisciti "
                 )
 
 bot.run("MTM4NTU5MzM1Mjk2Mjk2OTYxMA.GT4VXM.2xz7bKC0LbhTH7Ok_UBMJNUae3IadyO9yJIpAE")
